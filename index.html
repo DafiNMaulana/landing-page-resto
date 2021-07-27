@@ -1,0 +1,166 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <title>Kangkung burger</title>
+  </head>
+  <body class="bg-dark">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-none">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-warning" href="#">Promotions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active ms-3 fw-bold fs-5" aria-current="page" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3 fw-bold fs-5" href="#">Snacks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3 fw-bold fs-5" href="#">Drink</a>
+            </li>          
+          </ul>
+          <div class="icon">
+            <a href="#" class="" id="kaca"><i class="fas fa-search text-white"></i></a>
+            <input type="search" placeholder="Search Menu" class="px-1" id="input">
+            <a href="" class="me-3"><i class="far fa-user text-white"></i></a>
+            <a href=""><i class="fas fa-shopping-bag text-white"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+
+    <!-- main content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> 
+            <div class="carousel-inner">
+              <div class="carousel-item active gambar-1">
+                <img src="img/burger.png" class="d-block w-90" alt="...">
+                <div class="carousel-caption d-none d-md-block text-end cont-large position-absolute top-0">
+                  <h1 class="large-tittle text-center position-absolute fw-bolder">
+                    BURGER
+                  </h1>
+                </div>
+                <div class="carousel-caption d-none d-md-block text-end cont-desc desc-1 pe-4">
+                  <h4 class="fs-3">OUR CLASSIC BURGER</h4>
+                  <p>Some representative placeholder content for the second slide</p>
+                  <a href="#" class="text-decoration-none text-white">Share<i class="fas fa-share-alt ps-2"></i></a>
+                </div>
+              </div>
+              <div class="carousel-item gambar-2">
+                <img src="img/burger-1.png" class="d-block w-90" alt="...">
+                <div class="carousel-caption d-none d-md-block text-end cont-large position-absolute top-0">
+                  <h1 class="large-tittle lg-tittle-2 text-center position-absolute fw-bolder">
+                    CHEESE
+                  </h1>
+                </div>
+                <div class="carousel-caption d-none d-md-block text-end cont-desc desc-2 pe-4">
+                  <h4 class="fs-3">OUR CHEESE BURGER</h4>
+                  <p>Some representative placeholder content for the second slide</p>
+                  <a href="#" class="text-decoration-none text-white">Share<i class="fas fa-share-alt ps-2"></i></a>
+                </div>
+              </div>
+              <div class="carousel-item gambar-3">
+                <img src="img/fries.png" class="d-block w-90" alt="...">
+                <div class="carousel-caption d-none d-md-block text-end cont-large position-absolute top-0">
+                  <h1 class="large-tittle lg-tittle-3 text-center position-absolute fw-bolder">
+                    FRIES
+                  </h1>
+                </div>
+                <div class="carousel-caption d-none d-md-block text-end cont-desc desc-3 pe-4">
+                  <h4 class="fs-3">OUR CLASSIC FRIES</h4>
+                  <p>Some representative placeholder content for the second slide</p>
+                  <a href="#" class="text-decoration-none text-white">Share<i class="fas fa-share-alt ps-2"></i></a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev ms-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="text-dark" aria-hidden="true"><i class="fa-2x fas fa-chevron-left"></i></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="text-dark" aria-hidden="true"><i class="fa-2x fas fa-chevron-right"></i></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir main -->
+
+    <!-- social media -->
+    <div class="container position-absolute bottom-0 ps-5">
+      <div class="row">
+        <div class="icon-social d-flex flex-column ">
+          <a href=""><i class="fab fa-instagram pb-3 text-light"></i></a>
+          <a href=""><i class="fab fa-twitter pb-3 text-light"></i></a>
+          <a href=""><i class="fab fa-facebook text-light"></i></a>
+        </div>
+        <div class="row cont-bahasa">
+          <div class="bahasa d-flex justify-content-end">
+            <a href="#" class="text-decoration-none bahasa active fw-bold">EN | &nbsp</a>
+            <a href="#" class="text-decoration-none bahasa text-secondary">IDN | &nbsp</a>
+            <a href="#" class="text-decoration-none bahasa text-secondary">JP</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir social -->
+
+
+
+
+
+    <script>
+      document.getElementById('kaca').addEventListener('click', function() {
+        document.getElementById('input').style.width = '200px';
+        document.getElementById('input').style.opacity = '1';
+        document.getElementById('input').style.margin = '0 10px';
+        document.getElementById('input').style.cursor = 'text';
+      });
+
+      document.getElementById('kaca').addEventListener('click', function() {
+      });
+
+      // document.getElementById('kaca').addEventListener('clicked', function() {
+      //   document.getElementById('input').style.width = null;
+      //   document.getElementById('input').style.opacity = null;
+      // });
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+  </html>

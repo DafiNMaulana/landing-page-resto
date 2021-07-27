@@ -1,0 +1,7 @@
+@media(max-width: 1024px) {
+	.cont-desc {
+		margin-left: 0;
+		margin-bottom: -200px;
+		position: absolute;
+	}
+}

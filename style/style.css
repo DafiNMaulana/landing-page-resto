@@ -1,0 +1,116 @@
+
+/*navbar*/
+.navbar-brand {
+	font-family: 'Staatliches', cursive;
+	font-size: 28px;
+	color: #FFA302 !important;
+}
+.nav-link {
+	color: white !important;
+}
+
+.nav-link::after {
+	content:'';
+	width: 0;
+}
+.nav-link:hover::after {
+	content: '';
+	display: block;
+	border-bottom: 2px solid #FFA302;
+	width: 100%;
+	margin: auto;
+	margin-bottom: -8px;
+	padding: 1.4px;
+}
+.fa-search, .fa-user, .fa-shopping-bag {
+	font-size: 17px;
+	font-weight: 1;
+}
+.fa-search {
+	margin-right: -2px;
+}
+.icon input {
+	border-radius: 30px;
+	border: 1px solid white;
+	outline: none;
+	background: none;
+	color: white;
+	width: 0;
+	opacity: 0;
+	padding-left: 10px !important;
+	z-index: -99 !important;
+	transition: .3s;
+	margin-right: -2px;
+	cursor: default;
+}
+/*akhir navbar*/
+
+
+.carousel-inner {
+	/*border: 1px solid white;*/
+}
+.gambar-1 img {
+	width: 900px;
+	margin-left: 60px;
+}
+.gambar-2 img {
+	margin-left: 140px;	
+}
+.gambar-3 img {
+	margin-left: 13em;
+	margin-top: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: #FFA302;
+	opacity: 1;
+	margin: 14em 5em !important;
+}
+.carousel-control-next {
+	margin-right: 5em !important;
+}
+
+/*deskripsi konten*/
+.cont-desc {
+	z-index: 99;
+	margin-left: 42em;
+	bottom: 2em;
+	width: 250px;
+	position: absolute;
+}
+.desc-2 {
+	bottom: 3em !important;
+}
+.cont-desc h4 {
+	font-family: 'Staatliches', cursive;
+	color: #FFA302;
+}
+
+/*judul besar*/
+.cont-large {
+	z-index: -99;
+}
+.cont-large h1 {
+	font-size: 200px;
+	padding-left: 50px;
+	font-family: 'Staatliches', cursive;
+}
+/*icon*/
+.icon-social {
+	font-size: 20px;
+	position: absolute;
+	bottom: 30px;
+}
+
+/*bahasa*/
+.bahasa .active {
+	color: #FFA302;
+}
+.cont-bahasa {
+	position: absolute;
+	right: -60px;
+	bottom: 30px;
+}
